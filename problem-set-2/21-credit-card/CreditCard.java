@@ -27,6 +27,7 @@ public class CreditCard
     
     /**
       Makes a payment to credit card.
+	  
       @param amount the amount to pay
     */
     public void payment(double amount)
@@ -36,6 +37,7 @@ public class CreditCard
 
     /**
       Makes a purchase with the credit card
+	  
       @param amount the amount of the purchase
     */
     public void purchase(double amount)
@@ -45,6 +47,7 @@ public class CreditCard
 
     /**
       Gets the current balance of the credit card.
+	  
       @return the current balance
     */
     public double getBalance()
